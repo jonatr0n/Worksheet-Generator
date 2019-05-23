@@ -1,0 +1,45 @@
+.Worksheet {
+    max-width: 21cm;
+    min-height: 29.7cm;
+    padding: 1cm;
+    margin: 1cm auto;
+    border: 1px #D3D3D3 solid;
+    border-radius: 5px;
+    background: white;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    
+
+}
+
+.equation-container {
+    /* display: flex;
+  min-height: 80%;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 90%;
+  margin: 0 auto;
+  max-width: 100% !important; */
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px,1fr));
+  grid-column-gap: 200px;
+  grid-row-gap: 50px;
+  
+}
+
+.savedQuestion-container{
+    box-shadow: 14px 12px 58px 0 rgba(46,30,183,.05);
+   float: right;
+   width: 600px;
+   height: 200px;
+   padding: 15px;
+   margin: 15px;
+   overflow: auto;
+}
+
+/* @media print {
+    footer {page-break-after: always;}
+  } */

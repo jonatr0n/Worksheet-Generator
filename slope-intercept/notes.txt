@@ -1,0 +1,1 @@
+only accounted for moving b around, not moving mx around

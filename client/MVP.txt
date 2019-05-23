@@ -1,0 +1,60 @@
+Version 1 - MVP
+
+What we need:
+# HomePage
+	- Login/ Guest login
+	- About the website -What we are about/ trying to achive 
+	- NavBar??
+
+# UserPage (after the user has logged in)
+  -This page will have separate tabs for the user to click on
+	-Home
+		-Jump back in - allows the user to edit last saved worksheet
+		- Quick Question- this is a randomly generated a question based on users saved preferences. This will have a "PIN" feature that allows the user to pin the question to a saved location. 
+
+# Create a WorkSheet 
+  - This area will allow the user to generate multiple equations and the user can pick what questions they want on their pdf worksheet. (need to generate answer sheet)
+		- Form sheet- settings for the equation generator
+			-What type of class
+			- What type of equation 
+			- Number of students 
+		-Pin Section - add pined questions to the PDF
+
+# Settings Page 
+   - The settings page will hold all the user preferences 
+	- Preference Form - Will save/update users info
+		- Name
+		- Email
+		- What they teach
+		- WorkSheet params 
+			(Name section, date section, teachers class name on the sheet)
+		- The default number of unique worksheets. 
+
+# Backend 
+	- Database
+		- MongoDB?
+		- Lets figure this out 
+		- API calls
+	- Routes
+		- how many routes we need
+		- Using redux
+
+	- Filters
+	    - Must guarantee never getting the same question more than Math.floor 8% of the time.
+		
+
+## PLease add to the list below 
+
+Version 2 
+ 	- WorkSheet SandBox mode
+		This will allow the user to create unique worksheets with styling. Examples - Hangman game, adding arrows to worksheets. etc
+	- More in-depth user form - we want to really get to know the user 
+	- QA testing 
+	
+
+Version 3
+	- Grading with QR
+	- Data Visualization 
+	- multiple worksheets should distribute answers evenly within a range (ie. x=0 should only appear once per worksheet)
+
+
